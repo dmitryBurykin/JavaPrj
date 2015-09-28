@@ -14,6 +14,7 @@ public abstract class AbstractLog{
 	public abstract void logWarning(String Msg);
 	public abstract void logError(String Msg);
 	
+	// Ненужные действия
 	/*public void logStep(String Msg){}
 	public void logMessage(String Msg){}*/
 	
