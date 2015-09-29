@@ -15,7 +15,7 @@ public class LogFactory {
 			break;	
 		default:
 			try {
-				throw new Exception("Невозможно создать Лог указанного типа: " + logType);
+				throw new Exception("РќРµРІРѕР·РјРѕР¶РЅРѕ СЃРѕР·РґР°С‚СЊ Р»РѕРі СѓРєР°Р·Р°РЅРЅРѕРіРѕ С‚РёРїР°: " + logType);
 			} catch (Exception e) {
 				e.printStackTrace();
 			} 
